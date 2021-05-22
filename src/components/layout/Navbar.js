@@ -17,7 +17,7 @@ const Navbar = (props) => {
     return(
         <nav className="nav-wrapper black darken-3">
             <div className="container">
-                <Link to='/' className="logo left"><b>Project Planner</b></Link>
+                <Link to='/' className="logo left"><b>Plan your projects</b></Link>
                 { isLoaded(auth)&&links }
             </div>
         </nav>

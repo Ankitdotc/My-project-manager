@@ -55,7 +55,7 @@ const Todo = () => {
             <div className="main-div">
                 <div className="child-div">
                     <div>
-                        <h5>Add your Todo's here</h5>
+                        <h5><strong><i> Add your ToDo Items</i></strong></h5>
                     </div>
                     <div className="addItems">
                         <input type="text" className="form" placeholder="Add item..."

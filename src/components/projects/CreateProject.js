@@ -22,7 +22,7 @@ class CreateProject extends Component {
             this.props.createProject(this.state) 
             this.props.history.push('/');
         } else {
-            alert('Enter your title and content')
+            alert('Enter your title and project description')
         }
     }
 
@@ -39,7 +39,7 @@ class CreateProject extends Component {
                         <input type="text" id="title" onChange={this.handleChange}/>
                     </div>
                     <div className="input-field">
-                        <label htmlFor="content">Content</label>
+                        <label htmlFor="content"><i>Describe Your project details</i></label>
                         <textarea id="content" className="materialize-textarea" onChange={this.handleChange}></textarea>
                     </div>
                     <div className="input-field">

@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #bdbdbd;
+  background-color: peachpuff;
   min-height: 100%;
 }
 
@@ -33,11 +33,11 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label,
 input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
-  color: #000000 !important;
+  color: #462127 !important;
 }
 
 .main-div {
-  background: #bdbdbd;
+  background: lightpink;
   display: flex;
   justify-content: center;
   align-items: center;
