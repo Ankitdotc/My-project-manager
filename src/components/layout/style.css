@@ -1,0 +1,16 @@
+b {
+  font-size: 15px;
+}
+.button {
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  color: aliceblue;
+  background: none;
+  /* background-color: black; */
+  /* display: block; */
+  padding-bottom: 15px;
+  padding: 0 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
