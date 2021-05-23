@@ -1,5 +1,5 @@
 export const createProject = (project) => {
-    return (dispatch, getState, { getFirestore, getFirebase }) => {
+    return (dispatch, getState, { getFirestore}) => {
         // make async call to db
         const firestore = getFirestore();
         const profile = getState().firebase.profile;
